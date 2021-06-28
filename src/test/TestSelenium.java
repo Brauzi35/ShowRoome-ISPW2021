@@ -11,15 +11,15 @@ import static org.junit.Assert.*;
 public class Testselenium {
    public static void main(String[] args) {
 	   System.setProperty("webdriver.chrome.driver","Driver/chromedriver.exe");
-	   WebDriver driver1 = new ChromeDriver();
-	   driver1.get("http://localhost:8080/FinaleIspw/register");
-	   driver1.findElement(By.xpath("//*[@id=\"username\"]")).clear();
-	   driver1.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("valerio");
-	   driver1.findElement(By.xpath("//*[@id=\"password\"]")).clear();
-	   driver1.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("valeprova");
+	   WebDriver driver3 = new ChromeDriver();
+	   driver3.get("http://localhost:8080/FinaleIspw/register");
+	   driver3.findElement(By.xpath("//*[@id=\"username\"]")).clear();
+	   driver3.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("valerio");
+	   driver3.findElement(By.xpath("//*[@id=\"password\"]")).clear();
+	   driver3.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("valeprova");
 
-	   driver1.findElement(By.xpath("/html/body/p[2]/input")).click();
-	   driver1.close();
+	   driver3.findElement(By.xpath("/html/body/p[2]/input")).click();
+	   driver3.close();
 	  
    }
 }

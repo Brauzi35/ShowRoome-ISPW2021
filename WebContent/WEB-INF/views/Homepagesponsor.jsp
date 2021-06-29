@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
     <%@page import = "logic.utils.SessionSponsor"  %>
-    <%@page import = "logic.appcontroller.SessionSponsorController"  %>
+    <%@page import = "logic.applicationController.SessionSponsorController"  %>
  <%
  SessionSponsorController ssc = new SessionSponsorController();
 	ssc.sessionSponsorSetup();
@@ -17,13 +17,13 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
  
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
    
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;">  Showroome Sponsor</h1>  
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;">  ShowRoome Sponsor</h1>  
 
  
 
@@ -59,7 +59,7 @@
     <!-- Primo artista  -->
     <p style="margin-top: 110px; margin-left: 5px;"><h2><%= username %></h2></p> 
    
-    <p style="margin-top: 200px; margin-left: 5px;"> <img alt="" src="https://www.cosafarearoma.it/wp-content/uploads/2014/06/Trinity-College-Irish-Pub-Roma.jpg"
+    <p style="margin-top: 200px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/paddy-s-irish-pub.jpg?raw=true"
 
  
 

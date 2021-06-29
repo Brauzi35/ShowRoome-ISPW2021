@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
-<%@page import = "logic.appcontroller.SessionArtistController"  %>
+<%@page import = "logic.applicationController.SessionArtistController"  %>
 <%@page import = "logic.utils.SessionArtist"  %>
-<%@page import = "logic.appcontroller.HomepageArtistController"  %>
+<%@page import = "logic.applicationController.HomepageArtistController"  %>
 <%@page import = "logic.bean.EventBean" %>
 
 
@@ -24,12 +24,12 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style="    height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style="    height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
  
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome </h1>
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome Performer </h1>
     
     <h1 style="margin-top:-58px; margin-left: 1150px;">
       
@@ -67,7 +67,7 @@
      
     </h1>
     <!-- Primo artista  -->
-    <p style="margin-top: 300px; margin-left: 5px;"> <img  alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+    <p style="margin-top: 300px; margin-left: 5px;"> <img  alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/funny-male-mime-artist-with-makeup-gloves-hat_266732-7744.jpg?raw=true"
 
  
 
@@ -75,7 +75,7 @@
     </p>
     <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista"></label></h2>
     <ul>
-    <li>
+    <li style="list-style: none">
       <h3 style=" margin-top: 100px;margin-left: 400px;">
         <ul>
           <input readonly="readonly" value=<%= instanceA.getUsername() %> id="Nome" name="Nome" style="height: 25px; width: 225px;"

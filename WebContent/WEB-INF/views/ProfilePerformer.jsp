@@ -5,7 +5,7 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style="    height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style="    height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
     <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome </h1>

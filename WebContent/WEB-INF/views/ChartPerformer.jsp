@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@page import = "logic.appcontroller.ReviewController"%>
+    <%@page import = "logic.applicationController.ReviewController"%>
     <%@page import = "logic.bean.ReviewBean"%>
     <%@ page import = "java.util.List" %>
     <%@page import = "logic.utils.SessionUser"  %>
@@ -20,10 +20,10 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome </h1>
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome Performer </h1>
     <h1 style="margin-top: -60px; margin-left: 1000px;"> 
     <h1 style="margin-top:84px;margin-left:3px;">
        <form action="TastoChart" method="post">
@@ -63,7 +63,7 @@
     <h1 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista">Le tue recensioni</label></h1>
     
    <ul> 
-   <li> <h3 style=" margin-top: px;margin-left: 300px;"><ul>
+   <li style="list-style: none"> <h3 style=" margin-top: px;margin-left: 300px;"><ul>
    
       <% try{
     	  lrb.get(0).getReview();

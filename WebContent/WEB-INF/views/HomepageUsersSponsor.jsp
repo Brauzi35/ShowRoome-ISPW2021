@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
-   <%@page import = "logic.appcontroller.HostShowSponsorController"  %>
-   <%@page import = "logic.appcontroller.HomepageUserController"  %>
+   <%@page import = "logic.applicationController.HostShowSponsorController"  %>
+   <%@page import = "logic.applicationController.HomepageUserController"  %>
    <%@page import = "logic.bean.ArtistBean"  %>
     <%@ page import = "java.util.List" %>
         <%@page import = "logic.utils.SessionSponsor"  %>
@@ -20,13 +20,13 @@
   <head>
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
  
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
    
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;">Showroome Sponsor</h1>  
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;">ShowRoome Sponsor</h1>  
      <h1 style="margin-top:84px;margin-left:3px;">
       <form action="TastoProfile" method="post">
         <p style="margin-top:-74px;margin-left:400px;"><input id="Submit" name="Profile" type="submit" value="Organizza"  style="height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;color:white;"></input></p>
@@ -55,7 +55,7 @@
  
     <!-- Primo artista  -->
    
-    <p style="margin-top: 350px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+    <p style="margin-top: 350px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/chitarra%20duomo%20artisti%20strada-2.jpg?raw=true"
 
  
 
@@ -82,7 +82,7 @@
   
   
   
-       <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+       <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/unnamed.jpg?raw=true"
 
  
 
@@ -105,7 +105,7 @@
   
   
   
-    <p style="margin-top: 300px; margin-left: 5px;"> <img alt=""  src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+    <p style="margin-top: 300px; margin-left: 5px;"> <img alt=""  src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/124232574-1befbb5d-1e7d-4a4d-bb09-411ee9b05c27.jpg?raw=true"
 
  
 

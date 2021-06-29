@@ -3,7 +3,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
     <%@page import = " logic.bean.SponsoredShowBean" %>
-    <%@page import = " logic.appcontroller.SSUserController" %>
+    <%@page import = " logic.applicationController.SSUserController" %>
     <%@ page import = "java.util.List" %>
      <%@ page import = "java.util.ArrayList" %>
          <%@page import = " logic.utils.SessionUser" %>
@@ -45,12 +45,12 @@ for (int i=0; i<titles.size(); i++){
  
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
    
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;">  Showroome</h1>  
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;">  ShowRoome</h1>  
     
 
 
@@ -96,7 +96,7 @@ try{
     <!-- Primo artista  -->
     
    <% if(ok1=="ok"){ %>
-    <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+    <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/churchill_arms.jpg?raw=true*/36"
 
 
         h1="" style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">

@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
     <%@page import = " java.util.*"%>  
-
+    <%@page import = " web.entity.Artist" %>
     <%@page import = " logic.bean.EventBean" %>
     <%@page import = " logic.bean.ArtistBean" %>
     <%@ page import = "java.util.List" %>
-        <%@page import = " logic.appcontroller.HomepageUserController" %>
+        <%@page import = " logic.applicationController.HomepageUserController" %>
     <%	HomepageUserController huc = new HomepageUserController(); %>
 <%		List<EventBean> events = huc.liveEventsList();
     String artist1 = "";
@@ -27,11 +27,11 @@
 
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
    
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;">Showroome</h1>  
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;">ShowRoome</h1>  
                                     
     <h1 style="margin-top:84px;margin-left:3px;">
      

@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
     <%@page import = " java.util.*"%>  
+    <%@page import = " web.entity.Artist" %>
     <%@page import = " logic.bean.EventBean" %>
     <%@page import = " logic.bean.ArtistBean" %>
     <%@page import = " logic.utils.SessionUser" %>
     <%@ page import = "java.util.List" %>
-        <%@page import = " logic.appcontroller.HomepageUserController" %>
+        <%@page import = " logic.applicationController.HomepageUserController" %>
     <%	HomepageUserController huc = new HomepageUserController(); %>
 <%		List<EventBean> events = huc.liveEventsList();
 	SessionUser su = SessionUser.getInstance();
@@ -26,11 +27,11 @@
 
     <title>Prova</title>
   </head>
-  <body style=" height: 512px; background-color: white;"><img src="https://image.flaticon.com/icons/png/512/26/26362.png"
+  <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
       alt="" style="width: 93px; height: 73px; margin-left: -2px;"><br>
    
-    <h1 style="margin-top: -45.5667px; margin-left: 115px;">Showroome</h1>  
+    <h1 style="margin-top: -45.5667px; margin-left: 115px;">ShowRoome</h1>  
                                     
     <h1 style="margin-top:84px;margin-left:3px;">
      
@@ -80,7 +81,7 @@
     	 artist1 = "no review found";
      }
     %> 
-    <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+    <p style="margin-top: 300px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/1019.jpg?raw=true"
 
         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
@@ -115,7 +116,7 @@
 
 <!-- secondo artista --> 
 
-   <p style="margin-top: 280px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+   <p style="margin-top: 280px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/chitarra%20duomo%20artisti%20strada-2.jpg?raw=true"
 
         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     
@@ -149,7 +150,7 @@
     <% }%>
         <%if(!artist3.equals("no artist found")){ %>
     
-   <p style="margin-top: 250px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+   <p style="margin-top: 250px; margin-left: 5px;"> <img alt="" src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/124232574-1befbb5d-1e7d-4a4d-bb09-411ee9b05c27.jpg?raw=true"
 
         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     

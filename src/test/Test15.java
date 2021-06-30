@@ -1,12 +1,12 @@
 package test;
-
+//Valerio Brauzi
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 
 import java.util.List;
-import logic.appcontroller. RequestsArtistController;
+import logic.applicationController. RequestsArtistController;
 
 import logic.bean.SponsorBean;
 

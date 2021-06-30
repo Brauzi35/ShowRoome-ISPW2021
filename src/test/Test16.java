@@ -1,4 +1,5 @@
 package test;
+//Gianmattia Mignone
 import logic.dao.ArtistDao;
 import logic.entity.Artist;
 

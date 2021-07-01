@@ -1,5 +1,6 @@
 package logic.controller;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -16,7 +17,10 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import logic.appcontroller.HostShowSponsorController;
 import logic.dao.SponsorDao;
+import logic.exceptions.ExceptionView;
 import logic.exceptions.PendingRequestException;
+import logic.utils.ExceptionFactory;
+import logic.utils.TypeException;
 
 public class ControllerHostShowSponsor implements Initializable {
 	 @FXML
@@ -50,7 +54,7 @@ public class ControllerHostShowSponsor implements Initializable {
      private TextArea descriptionTextBox;
 
      @FXML
-     void sendRequest(ActionEvent event) {
+     void sendRequest(ActionEvent event) throws IOException {
     	 //this sends a request to the partner and to the artist selected, that when approved becomes a SponsoredShow
     	 String artist = listViewArtists.getSelectionModel().getSelectedItem();
     	 String title = titleTextBox.getText();
@@ -60,8 +64,10 @@ public class ControllerHostShowSponsor implements Initializable {
     	 try {
 			sd.createSSQueue(title, artist, partner, description);
 		} catch (PendingRequestException e) {
-			//implementare logica di errore
-			e.printStackTrace();
+			ExceptionFactory exf = ExceptionFactory.getInstance();
+			ExceptionView ev;
+			ev = exf.createView(TypeException.EMPTYF);
+			rootpane5.getChildren().setAll(ev.getRoot());
 		}
 	    }
 

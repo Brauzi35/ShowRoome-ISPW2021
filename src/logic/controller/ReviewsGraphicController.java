@@ -1,6 +1,7 @@
 package logic.controller;
 
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,9 @@ import javafx.scene.layout.AnchorPane;
 import logic.appcontroller.ReviewController;
 import logic.bean.ReviewBean;
 import logic.exceptions.DuplicateReviewException;
+import logic.exceptions.ExceptionView;
+import logic.utils.ExceptionFactory;
+import logic.utils.TypeException;
 
 public class ReviewsGraphicController implements Initializable{
 	//non uso più vedirecensioni e recensioni scritte
@@ -118,7 +122,7 @@ public class ReviewsGraphicController implements Initializable{
 	    }
 
 	    @FXML
-	    void submitReview(ActionEvent event){
+	    void submitReview(ActionEvent event) throws IOException{
 	    	if(textArea.getText().isBlank() || artistText.getText().isBlank()) {
 	    		//implementa eccezione o controllo perchè non sono state inserite review e/o artista riferito
 	    	}
@@ -127,8 +131,10 @@ public class ReviewsGraphicController implements Initializable{
 	    		try {
 					rc.saveReview( artistText.getText(), textArea.getText());
 				} catch (DuplicateReviewException e) {
-					//da implementare
-					e.printStackTrace();
+					ExceptionFactory eff = ExceptionFactory.getInstance();
+					ExceptionView v;
+					v = eff.createView(TypeException.DOUBREV);
+					rootpane5.getChildren().setAll(v.getRoot());
 				}
 	    	}
 	    }

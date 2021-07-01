@@ -7,7 +7,6 @@ import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -18,6 +17,9 @@ import logic.appcontroller.MapController;
 import logic.bean.PlaceBean;
 import logic.exceptions.DescriptionTooLongException;
 import logic.exceptions.EmptyFieldException;
+import logic.exceptions.ExceptionView;
+import logic.utils.ExceptionFactory;
+import logic.utils.TypeException;
 
 public class GraphicControllerMapArtist implements Initializable{
 	@FXML
@@ -90,25 +92,22 @@ public class GraphicControllerMapArtist implements Initializable{
     }
 
     @FXML
-    void submit(ActionEvent event) throws EmptyFieldException {
+    void submit(ActionEvent event) throws EmptyFieldException, IOException {
     	//this method creates a new event based on the information gathered
     	try {
 			mc.submitEvent(titleText.getText(), nameLabelArt.getText(), descriptionText.getText());
 		} catch (EmptyFieldException e) {
-			
-			e.printStackTrace();
+			ExceptionFactory ef = ExceptionFactory.getInstance();
+			ExceptionView view;
+			view = ef.createView(TypeException.EMPTYF);
+			rootpane3.getChildren().setAll(view.getRoot());
 		} catch (DescriptionTooLongException e) {
-			AnchorPane ap;
-			try {
-				ap = FXMLLoader.load(getClass().getResource("/logic/boundary/ErrorDescriptionWindow.fxml"));
-				rootpane3.getChildren().setAll(ap);
-			} catch (IOException e1) {
-				
-				e1.printStackTrace();
-			}	
-	    	
-	 		
+			ExceptionFactory ef = ExceptionFactory.getInstance();
+			ExceptionView view;
+			view = ef.createView(TypeException.TOOLONG);
+			rootpane3.getChildren().setAll(view.getRoot());
 		}
+			
     }
     
     

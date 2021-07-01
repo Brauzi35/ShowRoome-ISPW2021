@@ -11,7 +11,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import logic.appcontroller.MapController;
 import logic.bean.EventBean;
-import logic.entity.Event;
+
 
 public class GraphicControllerMap implements Initializable {
 	//declarations
@@ -38,39 +38,47 @@ public class GraphicControllerMap implements Initializable {
     
     MapController mc = new MapController();
 	List<EventBean> list = mc.liveEventsList();
-	//entity declaration CAMBIARE NON CI POSSONO ESSERE ENTITA' NEL CONTROLLORE GRAFICO
-	Event eur;
-	Event pigneto;
-	Event villa;
-	Event statuario;
+	
+	String eurName;
+	String eurArtist;
+	String eurDesc;
+	String pignetoName;
+	String pignetoArtist;
+	String pignetoDesc;
+	String villaName;
+	String villaArtist;
+	String villaDesc;
+	String statuarioName;
+	String statuarioArtist;
+	String statuarioDesc;
     
     
     @FXML
     void eurClick(ActionEvent event) {
-    	nameLabel.setText(eur.getName());
-    	artistLabel.setText(eur.getArtist());
-    	descriptionLabel.setText(eur.getDescription());
+    	nameLabel.setText(eurName);
+    	artistLabel.setText(eurArtist);
+    	descriptionLabel.setText(eurDesc);
     	}
 
     @FXML
     void pignetoClick(ActionEvent event) {
-    	nameLabel.setText(pigneto.getName());
-    	artistLabel.setText(pigneto.getArtist());
-    	descriptionLabel.setText(pigneto.getDescription());
+    	nameLabel.setText(pignetoName);
+    	artistLabel.setText(pignetoArtist);
+    	descriptionLabel.setText(pignetoDesc);
     }
 
     @FXML
     void statuarioClick(ActionEvent event) {
-    	nameLabel.setText(statuario.getName());
-    	artistLabel.setText(statuario.getArtist());
-    	descriptionLabel.setText(statuario.getDescription());
+    	nameLabel.setText(statuarioName);
+    	artistLabel.setText(statuarioArtist);
+    	descriptionLabel.setText(statuarioDesc);
     }
 
     @FXML
     void villaClick(ActionEvent event) {
-    	nameLabel.setText(villa.getName());
-    	artistLabel.setText(villa.getArtist());
-    	descriptionLabel.setText(villa.getDescription());
+    	nameLabel.setText(villaName);
+    	artistLabel.setText(villaArtist);
+    	descriptionLabel.setText(villaDesc);
     }
 
 	@Override
@@ -84,19 +92,27 @@ public class GraphicControllerMap implements Initializable {
 		for(int i = 0; i < list.size(); i++) {
 			if (list.get(i).getPlace().equals("Eur")) {
 				eurPlace.setVisible(true);
-				eur = new Event(list.get(i).getName(), list.get(i).getArtist(), list.get(i).getDescription(),list.get(i).getPlace());
+				eurName = list.get(i).getName();
+				eurArtist = list.get(i).getArtist();
+				eurDesc = list.get(i).getDescription();
 			}
 			else if (list.get(i).getPlace().equals("Pigneto")) {
 				pignetoPlace.setVisible(true);
-				pigneto = new Event(list.get(i).getName(), list.get(i).getArtist(), list.get(i).getDescription(),list.get(i).getPlace());
+				pignetoName = list.get(i).getName();
+				pignetoArtist = list.get(i).getArtist();
+				pignetoDesc = list.get(i).getDescription();
 			}
 			else if (list.get(i).getPlace().equals("Villa")) {
 				villaPlace.setVisible(true);
-				villa = new Event(list.get(i).getName(), list.get(i).getArtist(), list.get(i).getDescription(),list.get(i).getPlace());
+				villaName = list.get(i).getName();
+				villaArtist = list.get(i).getArtist();
+				villaDesc = list.get(i).getDescription();
 			}
 			else if (list.get(i).getPlace().equals("Statuario")) {
 				statuarioPlace.setVisible(true);
-				statuario = new Event(list.get(i).getName(), list.get(i).getArtist(), list.get(i).getDescription(),list.get(i).getPlace());
+				statuarioName = list.get(i).getName();
+				statuarioArtist = list.get(i).getArtist();
+				statuarioDesc = list.get(i).getDescription();
 			}
 			
 		}

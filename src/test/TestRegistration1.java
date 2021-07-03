@@ -7,7 +7,7 @@ import org.junit.Test;
 import logic.appcontroller.RegistrationAppController;
 import logic.exceptions.DuplicateUsernameException;
 
-public class TestRegistration {
+public class TestRegistration1 {
 	@Test
 	public void testRegistrationDuplicateUsername(){
 		RegistrationAppController rac = new RegistrationAppController();

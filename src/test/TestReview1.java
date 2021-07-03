@@ -11,7 +11,7 @@ import org.junit.Test;
 import logic.appcontroller.ReviewController;
 import logic.bean.ReviewBean;
 
-public class TestReview {
+public class TestReview1 {
 	@Test
 	public void testVerifyExistenceReviews() {
 		ReviewController rc = new ReviewController();

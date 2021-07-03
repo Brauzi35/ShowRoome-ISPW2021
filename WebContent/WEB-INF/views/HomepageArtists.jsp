@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
-<%@page import = "logic.applicationController.SessionArtistController"  %>
+<%@page import = "logic.appcontroller.SessionArtistController"  %>
 <%@page import = "logic.utils.SessionArtist"  %>
-<%@page import = "logic.applicationController.HomepageArtistController"  %>
+<%@page import = "logic.appcontroller.HomepageArtistController"  %>
 <%@page import = "logic.bean.EventBean" %>
 
 
@@ -142,8 +142,7 @@
     <button name="Informazioni" style="height: 45px; width: 110px; margin-left: 1100px; background-color: #4d4d4d;margin-top: -80px;">Dismiss</button>
     </form>
     <% }%>	
-  </body>
-</html>
+ 
 
 
 <script> 
@@ -175,6 +174,8 @@
 
 
 
+ </body>
+</html>
 
 
 
@@ -189,41 +190,8 @@
 
 
 
-
-<script> 
-   
-   function  ripristina(){
-	     
-	
-
-	     document.getElementById("descrizione").value="ciao";
-
-   }
-		 </script>
 
  
 
  
- <script> 
-   
-   function  cancella(){
-		
-	     document.getElementById("paypal-button-container0").style.display="none";
-		 document.getElementById("paypal-button-container1").style.display="none";
-		 document.getElementById("paypal-button-container2").style.display="none";
-		 document.getElementById("Dona0").disabled = false;
-		 document.getElementById("payInput0").disabled = false;
-		 document.getElementById("Dona1").disabled = false;
-		 document.getElementById("payInput1").disabled = false;
-		 document.getElementById("Dona2").disabled = false;
-		 document.getElementById("payInput2").disabled = false;
-		 document.getElementById("cancella").style.display="none";
-		 
-		
-		 history.go(0);
-
-   }
-		 </script>
- 
-    <!--     <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella" onClick="cancella()">Cancella</button> -->  
  

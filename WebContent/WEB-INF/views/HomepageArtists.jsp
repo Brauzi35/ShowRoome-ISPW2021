@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 <html  lang="it">
   <head>
-    <title>Prova</title>
+    <title>ShoowRome</title>
   </head>
   <body style="    height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
@@ -61,7 +61,7 @@
 </style> <div id="rectangle"></div>
     </h1>
               <h1 style="margin-top: -159px; margin-left: 1100px;"> <input value=<%=username %> size="65" maxlength="40" ;style="background-color:" #10030f="" type="submit"> </h1>
-      <form action="Logout" method="post">          <h1 style="margin-left: 1190px;margin-top: -57px;" > <input value="logout" size="65" maxlength="40" ;style="background-color:" #10030f="" type="submit"> </h1></form> 
+      <form action="Logout" method="post" >          <h1 style="margin-left: 1190px;margin-top: -57px;" > <input value="logout" size="65" maxlength="40" ;style="background-color:" #10030f="" type="submit"> </h1></form> 
     
     <h1 style="margin-top: -20px; margin-left: 1170px;">
      
@@ -76,56 +76,154 @@
     <h2 style=" margin-top: -180px;margin-left: 300px;"> <label form="Descrizione artista"></label></h2>
     <ul>
     <li style="list-style: none">
-      <h3 style=" margin-top: 100px;margin-left: 400px;">
+      <h3 style=" margin-top: 120px;margin-left: 400px;">
         <ul>
-          <input readonly="readonly" value=<%= instanceA.getUsername() %> id="Nome" name="Nome" style="height: 25px; width: 225px;"
+                             <button name="Dona" style="height: 35px; width: 90px; margin-top: -200px; margin-left:75px; background-color: #4d4d4d;"id="modifica" onClick="modifica()">Modifica</button>
+      
+        <form action="updateInfo" method="post" style="margin-top: 10px;">
+          <input disabled="true"value=<%= instanceA.getUsername() %> id="Nome" name="Nome" style="height: 25px; width: 225px;"
 
  
 
             type="text">
         </ul>
         <ul>
-          <input readonly="readonly" value=<%= instanceA.getTalent() %> id="Talent" name="Talent"
+          <input disabled="true" value=<%= instanceA.getTalent() %> id="talent1" name="talent1"
 
  
 
             style="height: 25px; width: 225px;" type="text">
         </ul>
         <ul>
-          <input readonly="readonly" value=<%= instanceA.getEmail() %> id="password" name="password"
+          <input disabled="true" value=<%= instanceA.getEmail() %> id="email1" name="email1"
 
  
 
-            style="height: 25px; width: 225px;" type="text">
+            style="height: 25px; width: 225px;" type="text"></input>
             
         </ul>
-         <input readonly="readonly" value=<%= instanceA.getDescription() %> id="descrizione" name="descrizione"
+         <input disabled="true" value=<%= instanceA.getDescription() %> id="descrizione1" name="descrizione1"
 
  
 
-            style="height: 25px; width: 225px;margin-left:40px;" type="text">
+            style="height: 25px; width: 225px;margin-left:40px;" type="text"></input>
            
       </h3>
     </li>
     </ul>
-    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
-      <button name="Dona" style="height: 35px; width: 90px; margin-top: -150px; margin-left:520px; background-color: #4d4d4d;">Modifica</button>
-    </form>
-    <form action="&lt;%= request.getContextPath() %&gt;/register" method="post">
-      <button name="Informazioni" style="height: 35px; width: 90px; margin-buttom:200px; margin-left: 70px; background-color: #4d4d4d;">Modifica
-        foto</button></form>
-    <h2 style="margin-left:950px;margin-top: -300px;">Le tue prenotazioni:</h2>
+    
+    
+    
+              <input  type="submit" disabled="true"  value ="Salva"  name="Salva" id="Salva" style="height: 35px; width: 90px; margin-top: 30px; margin-left:550px; background-color: #4d4d4d;"id="salva" ></button>
+            
+              <input  value=<%= instanceA.getEmail() %> id="email" name="email"
+
+            style="height: 25px; width: 225px;margin-left:40px;display:none;" type="text"></input>
+              <input  value=<%= instanceA.getTalent()%> id="talent" name="talent"
+
+            style="height: 25px; width: 225px;margin-left:40px;display:none;" type="text"></input>
+              <input  value=<%= instanceA.getDescription() %> id="descrizione" name="descrizione"
+
+            style="height: 25px; width: 225px;margin-left:40px;display:none;" type="text"></input>
+            
+            
+            </form>
+            
+             
+              <button  disabled="true"  name="Dona" style="height: 35px; width: 90px; margin-top: 30px; margin-left:550px; background-color: #4d4d4d;"id="annulla" onClick="annulla()">Annulla</button>
+    
+  
+    <h2 style="margin-left:950px;margin-top: -380px;">Le tue prenotazioni:</h2>
       
     
     <%if ((String)session.getAttribute("Hosting") != "noshow"){ %>
     <form action="Homepage" method="get">
-      <h3 style="margin-left:960px;margin-top: 30px;"><%=eventname.getName() %></h3>
-    <button name="Informazioni" style="height: 60px; width: 120px; margin-left: 980px; background-color: #4d4d4d;">Dismiss</button>
+      <h3 style="margin-left:960px;margin-top: 0px;"><%=eventname.getName() %></h3>
+    <button name="Informazioni" style="height: 45px; width: 110px; margin-left: 1100px; background-color: #4d4d4d;margin-top: -80px;">Dismiss</button>
     </form>
     <% }%>	
   </body>
 </html>
 
+
+<script> 
+   
+   function  modifica(){
+	     
+	
+
+	     document.getElementById("descrizione1").disabled =false;
+	     document.getElementById("email1").disabled =false;
+	     document.getElementById("talent1").disabled =false;
+	     document.getElementById("annulla").disabled =false;
+	     document.getElementById("Salva").disabled =false;
+
+
+
+   }
+		 </script>
+		
+<script> 
+   
+   function  annulla(){
+	location.reload();
+
+
+
+   }
+		 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script> 
+   
+   function  ripristina(){
+	     
+	
+
+	     document.getElementById("descrizione").value="ciao";
+
+   }
+		 </script>
+
  
 
+ 
+ <script> 
+   
+   function  cancella(){
+		
+	     document.getElementById("paypal-button-container0").style.display="none";
+		 document.getElementById("paypal-button-container1").style.display="none";
+		 document.getElementById("paypal-button-container2").style.display="none";
+		 document.getElementById("Dona0").disabled = false;
+		 document.getElementById("payInput0").disabled = false;
+		 document.getElementById("Dona1").disabled = false;
+		 document.getElementById("payInput1").disabled = false;
+		 document.getElementById("Dona2").disabled = false;
+		 document.getElementById("payInput2").disabled = false;
+		 document.getElementById("cancella").style.display="none";
+		 
+		
+		 history.go(0);
+
+   }
+		 </script>
+ 
+    <!--     <button  style="display:none;margin-top: -20x; margin-left: 1128px;" id="cancella" onClick="cancella()">Cancella</button> -->  
  

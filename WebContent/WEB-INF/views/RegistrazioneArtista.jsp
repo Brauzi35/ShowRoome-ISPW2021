@@ -7,9 +7,12 @@ String ids = (String)session.getAttribute("id_reg");
 <html  lang="it">
   <head>
     <title>ShoowRome</title>
-      <body background=" https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/roma-2.jpg?raw=true"  style="opacity="0.2";">
-    
-  </head>
+<body>
+  <style>
+body {
+  background-image: url('https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/roma-2.jpg?raw=true');
+}
+</style>  </head>
     <h1 style="margin-top: -45.5667px; margin-left: 115px;"> ShowRoome </h1>
     <p style="margin-top: -45.5667px; margin-left: 115px;"> </p>
     <h3 style=" margin-top: 70px;margin-left: 480px;">

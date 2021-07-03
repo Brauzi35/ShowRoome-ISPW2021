@@ -343,9 +343,9 @@
             <test name="test.Test12" todir="${junit.output.dir}"/>
             <test name="test.Test14" todir="${junit.output.dir}"/>
             <test name="test.Test16" todir="${junit.output.dir}"/>
-            <test name="test.TestHostEvent" todir="${junit.output.dir}"/>
-            <test name="test.TestRegistration" todir="${junit.output.dir}"/>
-            <test name="test.TestReview" todir="${junit.output.dir}"/>
+            <test name="test.TestHostEvent1" todir="${junit.output.dir}"/>
+            <test name="test.TestRegistration1" todir="${junit.output.dir}"/>
+            <test name="test.TestReview1" todir="${junit.output.dir}"/>
             <jvmarg line="-ea"/>
             <classpath refid="run.ShowRoomeFinal (1).classpath"/>
         </junit>

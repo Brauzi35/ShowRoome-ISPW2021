@@ -19,7 +19,7 @@
 <!DOCTYPE html>
 <html  lang="it">
   <head>
-    <title>Prova</title>
+    <title>ShoowRome</title>
   </head>
   <body style=" height: 512px; background-color: white;"><img src="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true"
 
@@ -59,11 +59,11 @@
     
     <!-- Primo artista  -->
    
-       <p style="margin-top: 260px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
+       <p style="margin-top: 280px; margin-left: 5px;"> <img alt="" src="https://www.focusjunior.it/content/uploads/2018/10/Michelangelo-Buonarroti.jpg"
 
         style="width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;">
     </p>
-  <li> <h3 style=" margin-top: px;margin-left: 300px;"><ul>
+  <li style="list-style: none"> <h3 style=" margin-top: -135px;margin-left: 300px;"><ul>
     <% 
     //intuizione assoluta
     try{

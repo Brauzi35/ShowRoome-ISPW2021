@@ -1,0 +1,24 @@
+
+Klogic.utils.TypeException#getUrl(Llogic/utils/TypeException;)Ljava/net/URL;\
+RC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/utils/TypeException.java   ("1*…
+1\
+RC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/utils/TypeException.java!	 !(±
+®
+\
+RC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/utils/TypeException.java!) !(5
+%0java.lang.String"__id*0*.
+$
+subviewlogic.utils.TypeException"
+path÷ô
+\
+RC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/utils/TypeException.java!	 !(6
+%1java.net.URL"=java.lang.Class#getResource(Ljava/lang/String;)Ljava/net/URL;*
+""*
+
+%0java.lang.String2getResource(Ljava/lang/String;)"t
+\
+RC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/utils/TypeException.java! !(7
+
+%1java.net.URL:$
+subviewlogic.utils.TypeExceptionB"
+logic.utils.TypeException

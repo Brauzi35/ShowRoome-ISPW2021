@@ -1,0 +1,90 @@
+
+Hlogic.dao.GeneralUserConnection#getUserConnection()Ljava/sql/Connection;b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (,"3*•
+2b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (∑
+¥
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+%1java.sql.Connection"__id*-*+!
+logic.dao.GeneralUserConnection"
+conn"Å
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+
+%1java.sql.Connection*©
+3b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+∑
+¥
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+
+%0java.sql.Connection"__id*-*+!
+logic.dao.GeneralUserConnection"
+conn*
+2
+1*ó
+1b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (ø
+º
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java ($
+%2java.lang.String"__id*8*6!
+logic.dao.GeneralUserConnection"
+driverClassNameÎ
+Ë
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (%
+%3java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+
+%2java.lang.Stringµ
+≤
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java+ (0
+%4java.lang.String"__id*.*,!
+logic.dao.GeneralUserConnection"
+dbUrl¥
+±
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java1 (5
+%5java.lang.String"__id*-*+!
+logic.dao.GeneralUserConnection"
+user¥
+±
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java6 (:
+%6java.lang.String"__id*-*+!
+logic.dao.GeneralUserConnection"
+passﬂ
+‹
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (;
+%7java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%4java.lang.String*
+
+%5java.lang.String*
+
+%6java.lang.String∑
+¥
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java
+ (;+!
+logic.dao.GeneralUserConnection"
+conn"__id*
+
+%7java.sql.Connection∑
+¥
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+%8java.sql.Connection"__id*-*+!
+logic.dao.GeneralUserConnection"
+conn"Å
+b
+XC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/src/logic/dao/GeneralUserConnection.java (
+
+%8java.sql.ConnectionB#"!
+logic.dao.GeneralUserConnection

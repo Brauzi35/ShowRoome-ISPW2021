@@ -1,0 +1,572 @@
+
+—org.apache.jsp.WEB_002dINF.views.HomepageUsersSponsor_jsp#_jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javaY Y("72*³
+68‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javab* b(0–“
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javab* b(E
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+POST*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+65
+67*­
+24k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspt u(D³°
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspt u(D
+%44void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*ÇÄ
+Á</input></h2>\r\n    <h3 style=\" margin-top: px;margin-left: 300px;\"> <textarea id=\"story\" name=\"story\" style=\" resize: none ;\"rows=\"5\" cols=\"80\" readonly disabled=\"disabled\">\r\n2write(Ljava/lang/String;)*
+23*²
+69‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javab b(•’
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javab b(%
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+GET*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+68
+65*‹
+25k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsps s(c‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspsM s(P
+%43void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%42java.lang.String2print(Ljava/lang/String;)*
+24*²
+26k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsps s(c¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspsM s(P
+%42java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+25*Ž	
+27k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp` s(c”‘
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp` s(c
+%41void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*¨¥
+¢\"; style=\"display:none;\"></input>\r\n  <button name=\"Dona\" style=\"height: 35px; width: 90px; margin-left: 1030px; background-color: #4d4d4d;\">Contatta</button> </form>\r\n \r\n \r\n\r\n    <hr style=\"align:left;size:1 ;width:1200px ;color:black; noshade;\"></hr>\r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n  \r\n    <p style=\"margin-top: 300px; margin-left: 5px;\"> <img alt=\"\"  src=\"https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/124232574-1befbb5d-1e7d-4a4d-bb09-411ee9b05c27.jpg?raw=true\"\r\n\r\n \r\n\r\n        h1=\"\" style=\"width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;\">\r\n    </p>\r\n     <form action=\"ContattaArtista\" method=\"post\"  style=\" margin-top: -50px;\">\r\n    <h2 style=\" margin-top: -180px;margin-left: 300px;\"> <label >2write(Ljava/lang/String;)*
+26*‰
+28i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_ _(Z‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_0 _(3
+%40void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%39java.lang.String2print(Ljava/lang/String;)*
+27*°
+29i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_ _(Z¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_0 _(3
+%39java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+28*®
+70‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java_ _(„
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java_ _(>
+
+%5void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*	
+Allow*
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)"”
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java` `(
+""*º
+71‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java], ](3­ª
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java], ](?
+%3java.lang.String"Cjavax.servlet.http.HttpServletRequest#getMethod()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getMethod()Ñ
+Î
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java] ](@ 
+_jspx_methodjava.lang.String"__id*
+
+%3java.lang.String™–
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java^
+ ^((
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*	
+OPTIONS*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+69
+70*â
+72‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java\	 \(Á
+¾
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java\	 \(+"
+%0javax.servlet.DispatcherType"__id*
+""ÌÉ
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java\3 \(N"
+%1javax.servlet.DispatcherType"Njavax.servlet.ServletRequest#getDispatcherType()Ljavax/servlet/DispatcherType;*2
+0
+request%javax.servlet.http.HttpServletRequest2getDispatcherType()²¯
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java\	 \(O
+%2boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*$
+"
+%0javax.servlet.DispatcherType*$
+"
+%1javax.servlet.DispatcherType2equals(Ljava/lang/Object;)*
+71
+65*¢
+30i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_ _(Zª§
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp_ _(Z
+%38void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*A?
+=</textarea></h3>\r\n<input id=\"name\" name=\"name\" value=\"2write(Ljava/lang/String;)*
+29*Î
+31i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp^ ^(DÖÓ
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp^ ^(D
+%37"&javax.servlet.jsp.JspWriter#print([C)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+""2	print([C)*
+30*°
+34i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp^ ^(D¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp^ ^(
+
+%36java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+31*­
+35k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp] ^(D³°
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp] ^(D
+%35void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*ÇÄ
+Á</input></h2>\r\n    <h3 style=\" margin-top: px;margin-left: 300px;\"> <textarea id=\"story\" name=\"story\" style=\" resize: none ;\"rows=\"5\" cols=\"80\" readonly disabled=\"disabled\">\r\n2write(Ljava/lang/String;)*
+34*‹
+36k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp\ \(c‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp\M \(P
+%34void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%33java.lang.String2print(Ljava/lang/String;)*
+35*²
+37k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp\ \(c¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp\M \(P
+%33java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+36*÷
+38k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspE \(cýú
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspE \(c
+%32void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*‘Ž
+‹\"; style=\"display:none;\"></input>\r\n  <button name=\"Dona\" style=\"height: 35px; width: 90px; margin-left: 1030px; background-color: #4d4d4d;\">Contatta</button> </form>\r\n     \r\n\r\n \r\n\r\n    <hr style=\"align:left;size:1 ;width:1200px ;color:black; noshade;\"></hr>\r\n\r\n \r\n\r\n \r\n\r\n    \r\n   \r\n  \r\n  \r\n  \r\n       <p style=\"margin-top: 300px; margin-left: 5px;\"> <img alt=\"\" src=\"https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/unnamed.jpg?raw=true\"\r\n\r\n \r\n\r\n         style=\"width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;\">\r\n    </p>\r\n     <form action=\"ContattaArtista\" method=\"post\"  style=\" margin-top: -50px;\">\r\n    <h2 style=\" margin-top: -180px;margin-left: 300px;\"> <label >2write(Ljava/lang/String;)*
+37*‰
+39i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD D(Z‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD0 D(3
+%31void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%30java.lang.String2print(Ljava/lang/String;)*
+38*®
+40i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD D(Z¶
+³
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD0 D(3
+%30java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2 *
+39*¢
+41i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD D(Zª§
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspD D(Z
+%29void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*A?
+=</textarea></h3>\r\n<input id=\"name\" name=\"name\" value=\"2write(Ljava/lang/String;)*
+40*Î
+42i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspC C(DÖÓ
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspC C(D
+%28"&javax.servlet.jsp.JspWriter#print([C)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+""2	print([C)*
+41*®
+45i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspC C(D¶
+³
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspC C(
+
+%27java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2 *
+42*­
+46k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspB C(D³°
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspB C(D
+%26void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*ÇÄ
+Á</input></h2>\r\n    <h3 style=\" margin-top: px;margin-left: 300px;\"> <textarea id=\"story\" name=\"story\" style=\" resize: none ;\"rows=\"5\" cols=\"80\" readonly disabled=\"disabled\">\r\n2write(Ljava/lang/String;)*
+45*‹
+47k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspA A(c‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspAM A(P
+%25void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%24java.lang.String2print(Ljava/lang/String;)*
+46*°
+48k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspA A(c¶
+³
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspAM A(P
+%24java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2 *
+47*Ç	
+49k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp6 6(ÍÊ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp6	 A(c
+%23void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*áÞ
+Û size=\"65\" maxlength=\"40\" ;style=\"background-color:\" #10030f=\"\" type=\"submit\"> </h1>\r\n         <form action=\"Logout\" method=\"post\">          <h1 style=\"margin-left: 1190px;margin-top: -57px;\" > <input value=\"logout\" size=\"65\" maxlength=\"40\" ;style=\"background-color:\" #10030f=\"\" type=\"submit\"> </h1></form> \r\n \r\n    <!-- Primo artista  -->\r\n   \r\n    <p style=\"margin-top: 350px; margin-left: 5px;\"> <img alt=\"\" src=\"https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/chitarra%20duomo%20artisti%20strada-2.jpg?raw=true\"\r\n\r\n \r\n\r\n        h1=\"\" style=\"width: 235px; height: 155px; margin-left: -4px; margin-top: -357px;\">\r\n    </p>\r\n    <form action=\"ContattaArtista\" method=\"post\"  style=\" margin-top: -50px;\">\r\n    <h2 style=\" margin-top: -180px;margin-left: 300px;\"> <label >2write(Ljava/lang/String;)*
+48*‘
+50l
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp5 5(«–“
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp5L 5(T
+%22void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+usernamejava.lang.String2print(Ljava/lang/String;)*
+49*å
+51‹
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java‡ ‡(	ÊÇ
+Œ
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java‡ ‡(È
+%21void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*¼¹
+¶        </p>\r\n      </form>\r\n      <form action=\"HostShowWebController\" method=\"get\">\r\n        <p style=\"margin-top:-74px;margin-left:937px;\"><input id=\"Submit\" type=\"submit\" name=\"Setting\" value=\"Request\" style=\"height: 35px ; width: 95px; margin-top: -48px; margin-left: 210px;background-color: #4D4D4D;\"></input></p>\r\n      </form>\r\n    </h1>\r\n    <h1 style=\"margin-top: -74px;margin-left:px ;background-color: white;\">\r\n      <style>\r\n#rectangle {\r\n    width: 1250px;\r\n    height: 50px;\r\n    background: #10030F;\r\n}\r\n</style> <div id=\"rectangle\"></div>\r\n    </h1>\r\n      <h1 style=\"margin-top: -159px; margin-left: 1100px;\"> <input value=2write(Ljava/lang/String;)*
+50*—
+52k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp (œ
+™
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp (
+usernamejava.lang.String"__id*
+""þ
+û
+
+l
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp 5(«
+%20void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*‘	Ž	
+‹	\r\n  \r\n<!DOCTYPE html>\r\n<html  lang=\"it\">\r\n  <head>\r\n    <title>Prova</title>\r\n  </head>\r\n  <body style=\" height: 512px; background-color: white;\"><img src=\"https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true\"\r\n\r\n \r\n\r\n      alt=\"\" style=\"width: 93px; height: 73px; margin-left: -2px;\"><br>\r\n   \r\n    <h1 style=\"margin-top: -45.5667px; margin-left: 115px;\">ShowRoome Sponsor</h1>  \r\n     <h1 style=\"margin-top:84px;margin-left:3px;\">\r\n      <form action=\"TastoProfile\" method=\"post\">\r\n        <p style=\"margin-top:-74px;margin-left:400px;\"><input id=\"Submit\" name=\"Profile\" type=\"submit\" value=\"Organizza\"  style=\"height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;color:white;\"></input></p>\r\n      </form>\r\n      \r\n    \r\n      <form action=\"Homepage\" method=\"post\">\r\n        <p style=\"margin-top:-74px;margin-left:-555px;\"><input id=\"Submit\" type=\"submit\" name=\"Homepage\" value=\"Homepage\" style=\"height: 35px ; width: 95px; margin-top: -46px; margin-left: 570px; background-color: #4D4D4D;\"></input>\r\n2write(Ljava/lang/String;)*
+51*“
+55k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp (™
+–
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp (
+artistsjava.util.List"__id*
+""*
+52*“
+58‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java{ {( ß
+Ü
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java{ {( "
+outjavax.servlet.jsp.JspWriter"__id*$
+"
+%18javax.servlet.jsp.JspWriterå
+â
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java| |((
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*$
+"
+outjavax.servlet.jsp.JspWriter°­
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jsp 
+(
+%19void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*EC
+A \r\n   \r\n   \r\n   \r\n    \r\n        \r\n    \r\n   \r\n    2write(Ljava/lang/String;)*
+55*Ê
+59‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javaz z((±®
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java{ {( "
+%18javax.servlet.jsp.JspWriter"Bjavax.servlet.jsp.JspContext#getOut()Ljavax/servlet/jsp/JspWriter;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getOut()*
+58*Ù
+16l
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspw ‚(ßÜ
+l
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspw ‚(
+%50void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*òï
+ì\"; style=\"display:none;\"></input>\r\n  <button name=\"Dona\" style=\"height: 35px; width: 90px; margin-left: 1030px; background-color: #4d4d4d;\">Contatta</button> </form>\r\n \r\n\r\n \r\n\r\n    <hr style=\"align:left;size:1 ;width:1200px ;color:black; noshade;\"></hr>\r\n  \r\n   <form action=\"&lt;%= request.getContextPath() %&gt;/register\" method=\"post\">\r\n        <p style=\"margin-top:65px;margin-left:410px;\"><button name=\"Chart\" style=\"height: 35px; width: 95px; margin-top: -48px; margin-left: 160px;background-color: #4D4D4D;\">Vedi altri</button></p>\r\n      </form>\r\n  </body>\r\n</html>\r\n2write(Ljava/lang/String;)*
+1*‰
+17i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv v(Z‘Ž
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv0 v(3
+%49void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+%48java.lang.String2print(Ljava/lang/String;)*
+16*°
+18i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv v(Z¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv0 v(3
+%48java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+17*¢
+19i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv v(Zª§
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspv v(Z
+%47void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*A?
+=</textarea></h3>\r\n<input id=\"name\" name=\"name\" value=\"2write(Ljava/lang/String;)*
+18*«
+0 "£
+‹
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java­ ­(
+implicit return*ä
+1‹
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java« «(Ä
+Á
+‹
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java« «(#
+%58javax.servlet.jsp.JspFactory"__id*
+""„
+‹
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.java« «(9
+%59void"Qjavax.servlet.jsp.JspFactory#releasePageContext(Ljavax/servlet/jsp/PageContext;)V*%
+#
+%58javax.servlet.jsp.JspFactory*5
+3
+_jspx_page_contextjavax.servlet.jsp.PageContext23releasePageContext(Ljavax/servlet/jsp/PageContext;)*
+0*Ù
+60‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javay y(-À½
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javaz z((%
+%17javax.servlet.http.HttpSession"Jjavax.servlet.jsp.PageContext#getSession()Ljavax/servlet/http/HttpSession;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getSession()*
+59*ß
+61‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javax x(3ÆÃ
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javay y(-"
+%16javax.servlet.ServletConfig"Mjavax.servlet.jsp.PageContext#getServletConfig()Ljavax/servlet/ServletConfig;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletConfig()*
+60*Î
+62‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javau v( ë
+è
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javau v( ,
+pageContextjavax.servlet.jsp.PageContext"__id*&
+$
+%14javax.servlet.jsp.PageContextú
+÷
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javaw w(&3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*.
+,
+pageContextjavax.servlet.jsp.PageContextÊÇ
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javax x(3#
+%15javax.servlet.ServletContext"Ojavax.servlet.jsp.PageContext#getServletContext()Ljavax/servlet/ServletContext;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletContext()*
+61*µ
+63‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javau u( Â
+¿
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javau u( #
+%13javax.servlet.jsp.JspFactory"__id*
+""×Ô
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javau v( $
+%14javax.servlet.jsp.PageContext"µjavax.servlet.jsp.JspFactory#getPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)Ljavax/servlet/jsp/PageContext;*%
+#
+%13javax.servlet.jsp.JspFactory*=;
+9org.apache.jsp.WEB_002dINF.views.HomepageUsersSponsor_jsp*2
+0
+request%javax.servlet.http.HttpServletRequest*4
+2
+response&javax.servlet.http.HttpServletResponse*
+""*
+""*2€@*
+""2ygetPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)*
+62*õ
+64‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javat t(ÜÙ
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javat t(>
+%12void"Ajavax.servlet.ServletResponse#setContentType(Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*!
+text/html; charset=ISO-8859-12"setContentType(Ljava/lang/String;)*
+63*Î
+20i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspu u(DÖÓ
+i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspu u(D
+%46"&javax.servlet.jsp.JspWriter#print([C)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+""2	print([C)*
+19*Ç
+65‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javai i(4Ë
+È
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javai i(4,
+pageContextjavax.servlet.jsp.PageContext"__id*
+""Á
+¾
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javam m(+"
+outjavax.servlet.jsp.JspWriter"__id*
+""Ç
+Ä
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javao o(1(
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*
+""Ò
+Ï
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javap p(<3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*
+""*
+64*ë	
+66‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javac c(„
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javac c(>
+
+%9void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*	
+Allow*
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)©
+¦
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javad d(D
+
+%10int"__id*
+""Ž‹
+Š
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javad d(ˆ
+%11void"Fjavax.servlet.http.HttpServletResponse#sendError(ILjava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*
+
+
+%10int*CA
+?JSPs only permit GET, POST or HEAD. Jasper also permits OPTIONS2sendError(ILjava/lang/String;)"”
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javae e(
+""*³
+67‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javabJ b(P–“
+‰
+C:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\HomepageUsersSponsor_jsp.javabJ b(e
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+HEAD*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+65
+66*°
+23i
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspu u(D¸
+µ
+k
+aC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/HomepageUsersSponsor.jspu u(
+
+%45java.lang.String"
+__arrayGet*
+
+artistsjava.util.List*2*
+20:
+%jsp_context:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseB=;
+9org.apache.jsp.WEB_002dINF.views.HomepageUsersSponsor_jsp

@@ -1,0 +1,305 @@
+
+‰org.apache.jsp.WEB_002dINF.views.Search_jsp#_jspService(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaQ Q("36*þ
+35{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaU, U(3ž›
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaU, U(?
+%3java.lang.String"Cjavax.servlet.http.HttpServletRequest#getMethod()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getMethod()Â
+¿
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaU U(@ 
+_jspx_methodjava.lang.String"__id*
+
+%3java.lang.StringŠ‡
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaV
+ V((
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*	
+OPTIONS*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+33
+34*»
+24{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaq q(-±®
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javar r((%
+%17javax.servlet.http.HttpSession"Jjavax.servlet.jsp.PageContext#getSession()Ljavax/servlet/http/HttpSession;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getSession()*
+23*¦
+36{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaT	 T(²
+¯
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaT	 T(+"
+%0javax.servlet.DispatcherType"__id*
+""½º
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaT3 T(N"
+%1javax.servlet.DispatcherType"Njavax.servlet.ServletRequest#getDispatcherType()Ljavax/servlet/DispatcherType;*2
+0
+request%javax.servlet.http.HttpServletRequest2getDispatcherType()£ 
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaT	 T(O
+%2boolean"*java.lang.Enum#equals(Ljava/lang/Object;)Z*$
+"
+%0javax.servlet.DispatcherType*$
+"
+%1javax.servlet.DispatcherType2equals(Ljava/lang/Object;)*
+35
+29*Á
+25{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javap p(3·´
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaq q(-"
+%16javax.servlet.ServletConfig"Mjavax.servlet.jsp.PageContext#getServletConfig()Ljavax/servlet/ServletConfig;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletConfig()*
+24*’
+26{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javam n( Ü
+Ù
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javam n( ,
+pageContextjavax.servlet.jsp.PageContext"__id*&
+$
+%14javax.servlet.jsp.PageContextë
+è
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javao o(&3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*.
+,
+pageContextjavax.servlet.jsp.PageContext»¸
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javap p(3#
+%15javax.servlet.ServletContext"Ojavax.servlet.jsp.PageContext#getServletContext()Ljavax/servlet/ServletContext;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getServletContext()*
+25*ú
+27{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javam m( ³
+°
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javam m( #
+%13javax.servlet.jsp.JspFactory"__id*
+""º·
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javam n( $
+%14javax.servlet.jsp.PageContext"µjavax.servlet.jsp.JspFactory#getPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)Ljavax/servlet/jsp/PageContext;*%
+#
+%13javax.servlet.jsp.JspFactory*/-
++org.apache.jsp.WEB_002dINF.views.Search_jsp*2
+0
+request%javax.servlet.http.HttpServletRequest*4
+2
+response&javax.servlet.http.HttpServletResponse*
+""*
+""*2€@*
+""2ygetPageContext(Ljavax/servlet/Servlet;Ljavax/servlet/ServletRequest;Ljavax/servlet/ServletResponse;Ljava/lang/String;ZIZ)*
+26*Ù
+16]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp4  4(#îë
+]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp4 >(
+%23void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+Š size=\"65\" maxlength=\"40\" ;style=\"background-color:\" #10030f=\"\" type=\"submit\"> </h1>\r\n               <form action=\"Logout\" method=\"post\">          <h1 style=\"margin-left: 1190px;margin-top: -57px;\" > <input value=\"logout\" size=\"65\" maxlength=\"40\" ;style=\"background-color:\" #10030f=\"\" type=\"submit\"> </h1></form> \r\n      \r\n     <h1 style=\"margin-top:200px; margin-left: 450px;\"><form action=\"TastoChart\" method=\"get\"> \r\n     <input name=\"artist\" value=\"cercaArtista\" id=\"artist\" tyle=\"height:30px;width:300px;\"></input>\r\n     <input value=\"Search artist\"size=\"35\" maxlength=\"40\" ;style=\"height:70px;width:120px;     ;background-color:\" #993300=\"\" type=\"submit\"></form> </h1>\r\n\r\n \r\n\r\n   \r\n     \r\n</html>2write(Ljava/lang/String;)*
+1*×
+28{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javal l(ÍÊ
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javal l(>
+%12void"Ajavax.servlet.ServletResponse#setContentType(Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*!
+text/html; charset=ISO-8859-12"setContentType(Ljava/lang/String;)*
+27*õ
+17^
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp3 3(Áˆ…
+]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp3b 3(j
+%22void"6javax.servlet.jsp.JspWriter#print(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+
+usernamejava.lang.String2print(Ljava/lang/String;)*
+16*ü
+29{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaa a(4¼
+¹
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaa a(4,
+pageContextjavax.servlet.jsp.PageContext"__id*
+""²
+¯
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javae e(+"
+outjavax.servlet.jsp.JspWriter"__id*
+""¸
+µ
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javag g(1(
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*
+""Ã
+À
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javah h(<3
+_jspx_page_contextjavax.servlet.jsp.PageContext"__id*
+""*
+28*¨
+18{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java~ ~(	ž
+›
+
+|
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java~ ~(­
+%21void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*¡ž
+›        </p>\r\n      </form>\r\n      <form action=\"Homepage\" method=\"post\">\r\n        <p style=\"margin-top:-74px;margin-left:-555px;\"><input id=\"Submit\" type=\"submit\" name=\"Homepage\" value=\"Homepage\" style=\"height: 35px ; width: 95px; margin-top: -46px; margin-left: 570px; background-color: #4D4D4D;\"></input>\r\n        </p>\r\n      </form>\r\n      <form action=\"HostShowWebController\" method=\"get\">\r\n        <p style=\"margin-top:-74px;margin-left:937px;\"><input id=\"Submit\" type=\"submit\" name=\"Setting\" value=\"Sponsored\" style=\"height: 35px ; width: 95px; margin-top: -48px; margin-left: 210px;background-color: #4D4D4D;\"></input></p>\r\n      </form>\r\n    </h1>\r\n    <h1 style=\"margin-top: -74px;margin-left:px ;background-color: white;\">\r\n      <style>\r\n#rectangle {\r\n    width: 1250px;\r\n    height: 50px;\r\n    background: #10030F;\r\n}\r\n</style> <div id=\"rectangle\"></div>\r\n    </h1>\r\n                            <h1 style=\"margin-top: -159px; margin-left: 1100px;\"> <input value=2write(Ljava/lang/String;)*
+17*Ý
+19]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp	 (Ž
+‹
+]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp	 (
+usernamejava.lang.String"__id*
+""à
+Ý
+
+^
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp
+ 3(Á
+%20void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*	þ
+û\r\n    \r\n<!DOCTYPE html>\r\n<html  lang=\"it\">\r\n  <head>\r\n    <title>Prova</title>\r\n  </head>\r\n  <body style=\" height: 512px; background-color: white;\"><img src=\"https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/26362.png?raw=true\"\r\n\r\n \r\n\r\n      alt=\"\" style=\"width: 93px; height: 73px; margin-left: -2px;\"><br>\r\n    <h1 style=\"margin-top: -45.5667px; margin-left: 115px;\"> ShowRoome </h1>\r\n   \r\n     <h1 style=\"margin-top:84px;margin-left:3px;\">\r\n     \r\n      <form action=\"TastoChart\" method=\"post\">\r\n        <p style=\"margin-top:-74px;margin-left:170px;\"><input id=\"Submit\" name=\"Chart\" type=\"submit\" value=\"Chart\" \" style=\"height: 35px ; width: 95px; margin-top: -48px; margin-left: 570px;color: white; background-color: #4D4D4D;\"></input>\r\n        </p>\r\n      </form>\r\n      <form action=\"TastoMap\" method=\"post\">\r\n        <p style=\"margin-top:-74px;margin-left:-170px;\"><input id=\"Submit\" name=\"Map\" type=\"submit\" value=\"Map\"  style=\"height: 35px ; width: 95px; margin-top: -48px; margin-left: 570px;background-color: #4D4D4D;\"></input>\r\n2write(Ljava/lang/String;)*
+18*œ
+0 "”
+}
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java’ ’(
+implicit return*·
+1}
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java (µ
+²
+}
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java (#
+%31javax.servlet.jsp.JspFactory"__id*
+""õò
+}
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java (9
+%32void"Qjavax.servlet.jsp.JspFactory#releasePageContext(Ljavax/servlet/jsp/PageContext;)V*%
+#
+%31javax.servlet.jsp.JspFactory*5
+3
+_jspx_page_contextjavax.servlet.jsp.PageContext23releasePageContext(Ljavax/servlet/jsp/PageContext;)*
+0* 	
+30{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java[ [(õò
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java[ [(>
+
+%9void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*	
+Allow*
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)š
+—
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java\ \(D
+
+%10int"__id*
+""ÿü
+|
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java\ \(ˆ
+%11void"Fjavax.servlet.http.HttpServletResponse#sendError(ILjava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*
+
+
+%10int*CA
+?JSPs only permit GET, POST or HEAD. Jasper also permits OPTIONS2sendError(ILjava/lang/String;)"…
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.java] ](
+""*•
+31{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZJ Z(P‡„
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZJ Z(e
+%8boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+HEAD*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+29
+30*•
+32{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZ* Z(0‡„
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZ* Z(E
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+POST*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+29
+31*”
+33{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZ Z(†ƒ
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaZ Z(%
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+GET*"
+ 
+_jspx_methodjava.lang.String2equals(Ljava/lang/Object;)*
+29
+32*±
+22{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javas s( Ð
+Í
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javas s( "
+outjavax.servlet.jsp.JspWriter"__id*$
+"
+%18javax.servlet.jsp.JspWriterÖ
+Ó
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javat t((
+	_jspx_outjavax.servlet.jsp.JspWriter"__id*$
+"
+outjavax.servlet.jsp.JspWriterûø
+]
+SC:/Users/vlrbr/OneDrive/Desktop/SHOWROOME/trunk/WebContent/WEB-INF/views/Search.jsp (
+%19void")java.io.Writer#write(Ljava/lang/String;)V*$
+"
+outjavax.servlet.jsp.JspWriter*
+\r\n        \r\n    \r\n  2write(Ljava/lang/String;)*
+19*
+34{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaW W(õò
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaW W(>
+
+%5void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*4
+2
+response&javax.servlet.http.HttpServletResponse*	
+Allow*
+GET, HEAD, POST, OPTIONS2/setHeader(Ljava/lang/String;Ljava/lang/String;)"…
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javaX X(
+""*¬
+23{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javar r((¢Ÿ
+{
+qC:\Users\vlrbr\OneDrive\Desktop\SHOWROOME\trunk\.scannerwork\jsp\org\apache\jsp\WEB_002dINF\views\Search_jsp.javas s( "
+%18javax.servlet.jsp.JspWriter"Bjavax.servlet.jsp.JspContext#getOut()Ljavax/servlet/jsp/JspWriter;*.
+,
+pageContextjavax.servlet.jsp.PageContext2getOut()*
+22:
+%jsp_context:0
+request%javax.servlet.http.HttpServletRequest:2
+response&javax.servlet.http.HttpServletResponseB/-
++org.apache.jsp.WEB_002dINF.views.Search_jsp

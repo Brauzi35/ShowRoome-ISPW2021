@@ -19,7 +19,7 @@ import logic.appcontroller.HomepageArtistController;
 /**
  * Servlet implementation class updateInfo
  */
-@WebServlet("/updateInfo")
+@WebServlet("/UpdateInfo")
 public class UpdateInfo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -42,8 +42,8 @@ public class UpdateInfo extends HttpServlet {
 		String casella3post = request.getParameter("descrizione1");
 		
     if(controllo.equals("Salva")) {
-	        	hac.updateProfile(casella1post, casella2post, casella3post);
-	        	        	RequestDispatcher dispatcher1 = request.getRequestDispatcher("/WEB-INF/views/HomepageArtists.jsp");
+    			hac.updateProfile(casella2post, casella1post, casella3post);
+	        	RequestDispatcher dispatcher1 = request.getRequestDispatcher("/WEB-INF/views/HomepageArtists.jsp");
 	            dispatcher1.forward(request, response);
 	    
 	}

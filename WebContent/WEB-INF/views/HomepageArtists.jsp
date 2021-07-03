@@ -80,7 +80,7 @@
         <ul>
                              <button name="Dona" style="height: 35px; width: 90px; margin-top: -200px; margin-left:75px; background-color: #4d4d4d;"id="modifica" onClick="modifica()">Modifica</button>
       
-        <form action="updateInfo" method="post" style="margin-top: 10px;">
+        <form action="UpdateInfo" method="post" style="margin-top: 10px;">
           <input disabled="true"value=<%= instanceA.getUsername() %> id="Nome" name="Nome" style="height: 25px; width: 225px;"
 
  

@@ -79,7 +79,7 @@ public class TastoMapArtista extends HttpServlet {
 					
 					e.printStackTrace();
 				}
-			 catch (EmptyFieldException e) {
+				  catch (EmptyFieldException e) {
 				e.printStackTrace();
 			}
 			

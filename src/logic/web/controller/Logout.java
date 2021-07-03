@@ -1,7 +1,6 @@
 package logic.web.controller;
 
 import java.io.IOException;
-import java.util.Enumeration;
 import javax.servlet.http.HttpSession;
 
 import logic.utils.SessionUser;

@@ -1,4 +1,4 @@
-package web.controller;
+package logic.web.controller;
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;

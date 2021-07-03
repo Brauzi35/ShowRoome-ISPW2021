@@ -1,11 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%> 
     <%@page import = " java.util.*"%>  
-    <%@page import = " web.entity.Artist" %>
     <%@page import = " logic.bean.EventBean" %>
     <%@page import = " logic.bean.ArtistBean" %>
     <%@ page import = "java.util.List" %>
-        <%@page import = " logic.applicationController.HomepageUserController" %>
+        <%@page import = " logic.appcontroller.HomepageUserController" %>
     <%	HomepageUserController huc = new HomepageUserController(); %>
 <%		List<EventBean> events = huc.liveEventsList();
     String artist1 = "";

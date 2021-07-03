@@ -4,8 +4,8 @@
 
 <html  lang="it">
   <head>
-    <title>Prova</title>
-
+    <title>ShoowRome</title>
+<body background="https://github.com/Brauzi35/ShowRoome-ISPW2021/blob/main/Immagini/Header.jpg?raw=true"  style="opacity="0.2";">
   </head>
     <h1 style="margin-top: px; margin-left: 115px;"> ShowRoome </h1>
     <p style="margin-top: -60px; margin-left: 115px;"> </p>
